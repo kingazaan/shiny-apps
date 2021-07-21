@@ -1,0 +1,29 @@
+LECTURE 1
+
+RShiny is reactive, meaning that the UI changes immediately
+The server component is very short, all it does is run stuff on server
+ShinyApp component is the shortest, notall that's done here is the running of the app
+
+UI contains, theme, and navbar page
+  This holds the tabpanel, which is the page we are on
+  In this we have the side panel (input) and the main panel (results)
+
+LECTURE 2
+
+Since there ar e3 parts to each app (ui, server, and shinyapp)
+This app aims to look at the wind level in the airquality dataset in a histogram form
+
+LECTURE 3
+
+Create a golf random forest model taht looks at inputs of weather outlook, temperature, humidity, and windiness and gives an output from this
+The sidebar panel uses 4 inputs, an dthe main output has a text and table output
+
+LECTURE 4
+
+Here we make a model first, then make the app
+Goal here is to showpredict the color of the plant, using the length and width for the petaland sepal
+We use an "action" button to override the reactive-ness of R
+
+LECTURE 5
+
+We want to show a bmi calculator with an about page also
